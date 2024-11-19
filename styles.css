@@ -1,0 +1,98 @@
+/* General Styles */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+ 
+ body {
+     color: #333;
+     line-height: 1.6;
+ }
+ 
+ header {
+     background: #333;
+     color: #fff;
+     padding: 1rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ header ul {
+     list-style: none;
+     display: flex;
+ }
+ 
+ header ul li {
+     margin-left: 20px;
+ }
+ 
+ header ul li a {
+     color: #fff;
+     text-decoration: none;
+ }
+ 
+ #hero {
+     padding: 2rem;
+     text-align: center;
+     background: #444;
+     color: #fff;
+ }
+ 
+ .button {
+     display: inline-block;
+     padding: 0.5rem 1rem;
+     color: #fff;
+     background: #007bff;
+     text-decoration: none;
+     border-radius: 5px;
+     margin-top: 1rem;
+ }
+ 
+ section {
+     padding: 2rem;
+     margin: 0 auto;
+     max-width: 800px;
+ }
+ 
+ .skill-bar {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ 
+ .skill-bar span {
+     width: 150px;
+ }
+ 
+ .progress {
+     flex-grow: 1;
+     height: 10px;
+     background: #007bff;
+     border-radius: 5px;
+ }
+ 
+ form input, form textarea, form button {
+     display: block;
+     width: 100%;
+     margin-bottom: 10px;
+     padding: 10px;
+ }
+ 
+ form button {
+     background: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ footer {
+     text-align: center;
+     padding: 1rem;
+     background: #333;
+     color: #fff;
+ }
+ 
